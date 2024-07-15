@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Day 3 HW</title>
+    </head>
+
+    <body>
+        
+        <h1>Homework PT1</h1>
+
+            <form>
+                <!-- Task #1 -->
+                <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required aria-required="true">
+                <input type="submit" value="Submit">
+                <br><br>
+                
+                <!-- Task #2 -->
+                <label for="number">Enter a number between 1 & 33: </label>
+                    <input type="number" name="number" id="number" min="1" max="33" step="2">
+                <br><br>
+
+                <!-- Task #3 -->
+                <label for="date">Enter Your Birthday</label>
+                    <input type="date" name="date" id="date" placeholder="Select a date" min="1985-01-01" max="2001-12-31" required aria-required="true">
+                <br> <br>
+
+                 <!-- Task #4 -->
+                  <label for="rating">Rate your day⭐: </label>
+                  <input type="range" name="rating" id="rating" min="1" max="10" placeholder="Rate your day 1-10">
+                  <br><br>
+
+                <!-- Task #5 -->
+                <label for="mood">What color describes your mood today?: </label>
+                <input type="color" name="mood" id="mood" value="#FFB6C1">
+            </form>
+            <hr>
+
+        <h1>Homework PT2</h1>
+            
+        <form>
+
+            <label for="favlang">Select your favorite programming lang: </label>
+                <select name="favlang" id="favlang">
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="js">JavaScript</option>
+                    <option value="ruby">Ruby</option>
+                </select>
+            <br><br>
+
+            <label for="exp">Experience level</label>
+            <br />
+                <input type="radio" name="exp" id="beginner" value="beginner" />
+                <label for="beginner">Beginner</label>
+            <br>
+
+                <input type="radio" name="exp" id="intermediate" value="intermediate" />
+                <label for="intermediate">Intermediate</label>
+            <br>
+
+                <input type="radio" name="exp" id="advance" value="advance" />
+                <label for="advance">Advance</label>
+            <br /><br />
+
+
+            <label for="platform">Select your perferred development platform: </label>
+            <br>
+
+            <input type="checkbox" name="platform" id="mobile">
+                <label for="mobile">Mobile</label>
+            <br>
+
+            <input type="checkbox" name="platform" id="web">
+                <label for="web">Web</label>
+            <br>
+
+            <input type="checkbox" name="platform" id="desktop">
+                <label for="desktop">Desktop</label>
+
+        </form>
+
+    </body>
+</html>
